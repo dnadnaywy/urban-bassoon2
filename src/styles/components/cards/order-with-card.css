@@ -1,0 +1,140 @@
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url(../../fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url(../../fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Poppins-SemiBold";
+  src: url(../../fonts/Poppins-SemiBold.ttf);
+}
+
+.card {
+  /* width: 250px; */
+  /* height: 150px; */
+
+  width: fit-content ;
+  display: flex;
+  align-items: flex-end;
+  gap: 60px;
+  /* justify-content: space-between; */
+  /* border-radius: 5px; */
+  /* padding: 16px; */
+  /* position: relative; */
+}
+
+.card-body {
+  /* margin-top: 20px; */
+  /* position: relative; */
+  
+}
+
+.card-body label {
+  
+  display: flex;
+  align-items: center;
+  margin:10px 0;
+
+  /* font-weight: 570;
+  font-size: 20px;
+  font-family: 'Poppins-Regular';  */
+} 
+
+.best-tag{
+  margin-left: 10px;
+  
+  font-family: 'Poppins-SemiBold';
+  font-style: italic;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  
+
+  color: #00A757;
+
+}
+
+.bold_text{
+  
+  font-weight: 600;
+  font-size: 20px;
+  font-family: 'Poppins-SemiBold'; 
+}
+
+.regular_text{
+
+  font-weight: 570;
+  font-size: 20px;
+  font-family: 'Poppins-Regular'; 
+}
+
+
+  
+.card-body input[type="checkbox"] {
+  
+  appearance: none;
+  
+  background-color: white;
+
+  outline: 3px solid rgba(255, 79, 90, 1) ;
+  
+  border-radius: 50%;
+
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+.card-body input[type="checkbox"]:checked {
+
+  border: 3px solid white;
+  background-color: rgba(255, 79, 90, 1);
+
+}
+
+
+.card-footer {
+
+  display: flex;
+  flex-direction: column;
+  
+  /* position: absolute; */
+
+  /* top: 80px; */
+  /* bottom: 0px; */
+  /* left: 350px; */
+ 
+  /* height: 80px;
+  width: 220px; */
+
+  
+
+}
+
+.delivery {
+  
+  font-family: 'Poppins-SemiBold';
+
+  position: relative;
+
+
+  height: 30px;
+  width: 250px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.delivery text{
+
+  /* position: relative; */
+  font-family: 'Poppins-Regular';
+
+}
+

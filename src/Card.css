@@ -1,0 +1,31 @@
+.card {
+    width: 400px;
+    background-color: #db6868;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .card-title {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
+  .card-body {
+    margin-bottom: 16px;
+  }
+  
+  .card-footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  
+  .card-footer h2 {
+    font-size: 16px;
+  }
+  
+  .card-footer p {
+    font-size: 14px;
+    margin: 4px 0;
+  }

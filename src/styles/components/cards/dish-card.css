@@ -1,0 +1,113 @@
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url(../../fonts/Poppins-Bold.ttf);
+  }
+  
+  @font-face {
+    font-family: "Poppins-Regular";
+    src: url(../../fonts/Poppins-Regular.ttf);
+  }
+  
+  * {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+  
+  .dish {
+    position: relative;
+    width: 500px;
+    height: 160px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    margin-bottom: 2.5rem;
+  }
+  
+  .dish:hover {
+    box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.15);
+  }
+  
+  .dish_description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 3px;
+    position: absolute;
+    left: 2.29%;
+    right: 47.48%;
+    top: 11.25%;
+    bottom: 17.5%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .dish_description p:nth-of-type(1) {
+    width: 111px;
+    height: 36px;
+    font-family: 'Poppins-Bold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .dish_description p:nth-of-type(2) {
+    width: 60px;
+    height: 30px;
+    font-family: 'Poppins-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    top: 35px;
+    color: #000000;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+  .dish_description p:nth-of-type(3) {
+    width: 201px;
+    height: 42px;
+    font-family: 'Poppins-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #525252;
+    top: 65px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+  }
+  
+  .dish_img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 45%;
+    overflow: hidden;
+    border-radius: 0px 15px 15px 0px;
+  }
+  
+  .dish_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .plus img {
+    position: absolute;
+    left: 87.39%;
+    right: 5.73%;
+    top: 12.5%;
+    bottom: 68.75%;
+  }
+  

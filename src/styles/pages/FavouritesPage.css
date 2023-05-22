@@ -1,0 +1,160 @@
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url(../fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
+
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+.container {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.favourites_page{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.grid {
+    width: 100%;
+}
+
+.products{
+    position: absolute;
+    width: 940px;
+    height: 404px;
+    left: 300px;
+    top: 235px;
+}
+
+.products p{
+    position: absolute;
+    width: 257px;
+    height: 54px;
+    left: 0px;
+    top: 0px;
+    
+    font-family: 'Poppins-Bold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 54px;
+    
+    color: #000000;
+}
+
+.the_dishes{
+
+    position: absolute;
+    /* width: 940px;
+    height: 404px; */
+    
+    top: 60px;
+
+    width: 1000px;
+    /* margin-top: 3rem; */
+  
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.restaurantCard {
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    font-family: 'Poppins-Regular';
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.restaurantCard:hover {
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 79, 90, 1);
+    color: white;
+}
+
+.restaurantCardImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+
+.restaurantCardImage img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.restaurantCardData {
+    margin: 20px;
+}
+
+.restaurantCardName {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+
+.restaurantCardDelivery {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    display: flex;
+    flex: row;
+}
+
+.restaurantCardRating {
+    position: absolute;
+    top: 10px;
+    right: 10%;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: black;
+}
+
+.restaurantsBody {
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.the_restaurants {
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+}

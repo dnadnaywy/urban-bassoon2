@@ -1,0 +1,47 @@
+[
+    {
+        "categoryIndex" : 0,
+        "categoryName" : "All",
+        "categoryImage" : "allIcon.svg"
+    },
+    {
+        "categoryIndex" : 1,
+        "categoryName" : "Sushi",
+        "categoryImage" : "sushiIconsvg.svg"
+    },
+    {
+        "categoryIndex" : 2,
+        "categoryName" : "Pizza",
+        "categoryImage" : "italianIcon.svg"
+    },
+    {
+        "categoryIndex" : 3,
+        "categoryName" : "BBQ",
+        "categoryImage" : "BBQIcon.svg"
+    },
+    {
+        "categoryIndex" : 4,
+        "categoryName" : "Noodles",
+        "categoryImage" : "thaiIcon.svg"
+    },
+    {
+        "categoryIndex" : 5,
+        "categoryName" : "Burgers",
+        "categoryImage" : "burgerIcon.svg"
+    },
+    {
+        "categoryIndex" : 6,
+        "categoryName" : "Salad",
+        "categoryImage" : "saladIcon.svg"
+    },
+    {
+        "categoryIndex" : 7,
+        "categoryName" : "Sweets",
+        "categoryImage" : "sweetsIcon.svg"
+    },
+    {
+        "categoryIndex" : 8,
+        "categoryName" : "Vegan",
+        "categoryImage" : "veganIcon.svg"
+    }
+]

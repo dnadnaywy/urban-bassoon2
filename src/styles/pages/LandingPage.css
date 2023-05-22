@@ -1,0 +1,429 @@
+.banner {
+    background-image: url('../../images/pictures/guy_on_bike.png');
+    background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
+    margin: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 400px;
+    position: relative;
+    right: 0;
+    height: 100%;
+}
+
+.welcomeText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    max-height: 1000px;
+    width: 55%;
+    padding: 50px;
+}
+
+.slogan {
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: "Poppins-Bold";
+    color: black;
+    margin-top: 30px;
+}
+
+.sloganColored {
+    color: rgba(255, 79, 90, 1);
+}
+
+.subtitle {
+    font-size: 1.7rem;
+    font-weight: 500;
+    font-family: "Poppins-Regular";
+    color: black;
+    margin-top: 50px;
+}
+
+.orderButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: "Poppins-Regular";
+    padding: 10px 20px;
+    margin: 0 10px;
+    color: #fff;
+    height: 40px;
+    width: 150px;
+    background-color: rgba(255, 79, 90, 1);
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+    left: 15%;
+}
+
+.categoryContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 30px auto;
+}
+
+.categorySelector {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 5px;
+    overflow-x: scroll;
+}
+
+.category {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F5;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    color: black;
+    border-radius: 15px;
+    font-family: 'Poppins-Regular';
+    min-width: 100px;
+    padding: 15px 0;
+    margin: 0 20px;
+    border-radius: 45px;
+    cursor: pointer;
+}
+
+.category:hover {
+    background-color: rgba(255, 79, 90, 1);
+    color: white;
+}
+
+.rightArrow {
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+}
+
+.restaurantCard {
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    font-family: 'Poppins-Regular';
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.restaurantCard:hover {
+
+    background-color: rgba(255, 79, 90, 1);
+    box-shadow: 0px 2px 2px 2px rgba(255, 79, 90, 0.25);
+    color: white;
+}
+
+.restaurantCardImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+
+.restaurantCardImage img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.restaurantCardData {
+    margin: 20px;
+}
+
+
+.ribbon {
+    position: absolute;
+    top: -10px;
+    left: 0px;
+    z-index: 1;
+    padding: 5px 15px;
+    background-color: #F5F5F5;
+    font-size: 20px;
+    font-weight: bold;
+    background: solid;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.ribbon:after {
+    content: "";
+    position: absolute;
+    right: -20px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid #F5F5F5;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+}
+
+.app-name {
+    font-weight: bold;
+}
+
+.restaurantCard:hover .ribbon {
+    background-color: rgba(255, 79, 90, 1);
+}
+
+.restaurantCard:hover .ribbon:after {
+    border-left: 20px solid rgba(255, 79, 90, 1);
+}
+
+.restaurantCard:hover .restaurantCardRating {
+    background-color: rgba(255, 79, 90, 1);
+    color: white;
+}
+
+
+
+.restaurantCardName {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.restaurantCardDelivery {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    display: flex;
+    flex: row;
+}
+
+.restaurantCardRating {
+    position: absolute;
+    top: 20px;
+    right: 10%;
+    background-color: #F5F5F5;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: black;
+}
+
+.restaurantsBody {
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.findFoodText {
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: "Poppins-Bold";
+    color: #555;
+    margin: 20px;
+    margin-left: 5%;
+    white-space: nowrap;
+}
+
+.grid {
+    width: 100%;
+}
+
+/* DropdownList container */
+.rw-dropdown-list {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 16px;
+}
+
+/* DropdownList items */
+.rw-list-option {
+    padding: 10px;
+    color: #333;
+    cursor: pointer;
+}
+
+/* Selected item */
+.rw-state-selected {
+    background-color: rgba(255, 79, 90, 1);
+    color: #fff;
+    width: 100%;
+}
+
+/* Hover effect */
+.rw-state-focus.rw-list-option:hover {
+    background-color: #f5f5f5;
+}
+
+.rw-popup {
+    position: absolute;
+    z-index: 1000;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+}
+
+.filterContainer {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.filterSelectorContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    /* align to the right */
+    margin: 30px auto;
+    width: 80%;
+}
+
+.filterSelector {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins-Regular";
+    margin: 10px 20px;
+    white-space: nowrap;
+}
+
+.filterName {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.priceInput {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.priceInput label {
+    margin-right: 10px;
+    font-family: "Poppins-Regular";
+    color: black;
+}
+
+.priceInput input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    color:#555
+}
+
+.priceInput input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.priceBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.priceButton {
+    padding: 5px 8px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.priceButton:hover {
+    background-color: #0062cc;
+}
+
+@media screen and (max-width: 1200px) {
+    .banner {
+        background-image: url('../../images/pictures/guy_on_bike.png');
+        background-size: cover;
+        background-position: left center;
+        background-repeat: no-repeat;
+        margin: 0px;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 0;
+    }
+
+    .priceInput {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .priceBox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .welcomeText {
+        font-size: 4rem;
+        width: 90%;
+    }
+
+    .filterContainer {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .filterSelectorContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 30px auto;
+        width: 80%;
+    }
+
+    .findFoodText {
+        font-size: 2rem;
+        font-weight: 500;
+        font-family: "Poppins-Bold";
+        color: #555;
+        margin: 0;
+        margin-left: 5%;
+        white-space: nowrap;
+        text-align: center;
+    }
+
+    .favouriteButton {
+        display:block;
+        width:40px;
+        height:40px;
+    }
+
+    .favouriteButton:hover {
+        cursor: pointer;
+    }
+}

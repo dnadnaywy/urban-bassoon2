@@ -1,0 +1,40 @@
+{
+    "categories": [
+    {
+        "Name": "Picked for you"
+    },
+
+    {
+        "Name": "Soup"
+    },
+
+    {
+        "Name": "Manousheh"
+    },
+
+    {
+        "Name": "Mezze"
+    },
+
+    {
+        "Name": "Salad"
+    },
+
+    {
+        "Name": "Platters"
+    },
+
+    {
+        "Name": "Side"
+    },
+
+    {
+        "Name": "Dessert"
+    },
+
+    {
+        "Name": "Drink"
+    }
+]
+
+}
